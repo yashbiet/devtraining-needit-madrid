@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>test_floe_designew</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.opened_by","label":"Trigger➛NeedIt Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_58872_needit_needit","column_name":"opened_by"},{"name":"Created or Updated_1.current","label":"Trigger➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference"},{"name":"c91fcadc-3cdf-4315-ba87-a1a245528776.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"c91fcadc-3cdf-4315-ba87-a1a245528776.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"83046111-63c0-44bf-a81d-865b50c36eef.record.opened_by","label":"1➛NeedIt Task Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_58872_needit_needit_task","column_name":"opened_by"},{"name":"Created_1.current","label":"Trigger➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"83046111-63c0-44bf-a81d-865b50c36eef.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"83046111-63c0-44bf-a81d-865b50c36eef.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"590f6fb3-ff5b-4e69-835d-740b8c2f9353.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"590f6fb3-ff5b-4e69-835d-740b8c2f9353.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"05ca9bbe-686b-40ff-bec3-d65112e8c7d7.Incident.assigned_to","label":"1➛Incident➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"incident","column_name":"assigned_to"},{"name":"93b3faf6-f043-40f1-abae-03607c48b5b4.email","label":"2➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"05ca9bbe-686b-40ff-bec3-d65112e8c7d7.Incident","label":"1➛Incident","reference":"incident","reference_display":"Incident","type":"document_id","base_type":"document_id"}]</label_cache>
+        <latest_snapshot>6606a1474f53330088244bff9310c79c</latest_snapshot>
+        <master_snapshot>3ace9dcf4f13330088244bff9310c76a</master_snapshot>
+        <name>Test Floe Designew</name>
+        <outputs/>
+        <remote_trigger_id>cbce9dcf4f13330088244bff9310c7d0</remote_trigger_id>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-20 18:45:20</sys_created_on>
+        <sys_id>c65e91cf4f13330088244bff9310c765</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Test Floe Designew</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_c65e91cf4f13330088244bff9310c765</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-08-20 19:18:57</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=c65e91cf4f13330088244bff9310c765"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c65e91cf4f13330088244bff9310c765"/>
+</record_update>

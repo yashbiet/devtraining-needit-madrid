@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>test_floe_designew</internal_name>
+        <label_cache>[{"name":"05ca9bbe-686b-40ff-bec3-d65112e8c7d7.Incident.assigned_to","label":"1➛Incident➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"incident","column_name":"assigned_to"},{"name":"93b3faf6-f043-40f1-abae-03607c48b5b4.email","label":"2➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"05ca9bbe-686b-40ff-bec3-d65112e8c7d7.Incident","label":"1➛Incident","reference":"incident","reference_display":"Incident","type":"document_id","base_type":"document_id"}]</label_cache>
+        <master>true</master>
+        <name>Test Floe Designew</name>
+        <outputs/>
+        <parent_flow display_value="Test Floe Designew">c65e91cf4f13330088244bff9310c765</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-20 18:47:17</sys_created_on>
+        <sys_id>3ace9dcf4f13330088244bff9310c76a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Floe Designew</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_3ace9dcf4f13330088244bff9310c76a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-20 18:47:17</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=3ace9dcf4f13330088244bff9310c76a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3ace9dcf4f13330088244bff9310c76a"/>
+</record_update>

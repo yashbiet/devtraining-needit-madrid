@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Assignee Category" max_length="40" name="x_58872_needit_assignee_category" type="collection">
+        <element label="Asignee" max_length="32" name="asignee" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Category name" max_length="40" name="category_name" type="string"/>
+        <index name="index">
+            <element name="asignee"/>
+        </index>
+    </element>
+</database>
